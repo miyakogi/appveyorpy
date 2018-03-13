@@ -1,9 +1,13 @@
+envitonment:
+  matrix:
+    - Python: "C:\\Python36"
+
 install:
-  - C:\\Python36\bin\python -V
-  - C:\\Python36\bin\python -m pip install -U pip setuptools
-  - C:\\Python36\bin\python -m pip install tox
+  - %CMD_IN_ENV% python -V
+  - %CMD_IN_ENV% python -m pip install -U pip setuptools
+  - %CMD_IN_ENV% python -m pip install tox
 
 test_script:
-  - C:\\Python36\bin\python -m tox
+  - %CMD_IN_ENV% python -m tox
 
 build: off
