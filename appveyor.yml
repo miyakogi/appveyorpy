@@ -6,11 +6,11 @@ environment:
     - Python: "C:\\Python36"
 
 install:
-  - %CMD_IN_ENV% python -V
-  - %CMD_IN_ENV% python -m pip install -U pip setuptools
-  - %CMD_IN_ENV% python -m pip install tox
+  - "%CMD_IN_ENV% python -V"
+  - "%CMD_IN_ENV% python -m pip install -U pip setuptools"
+  - "%CMD_IN_ENV% python -m pip install tox"
 
 test_script:
-  - %CMD_IN_ENV% python -m tox
+  - "%CMD_IN_ENV% python -m tox"
 
 build: off
