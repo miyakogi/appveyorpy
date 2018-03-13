@@ -1,9 +1,9 @@
 install:
-  - C:\\Python36 -V
-  - C:\\Python36 -m pip install -U pip setuptools
-  - C:\\Python36 -m pip install tox
+  - C:\\Python36\bin\python -V
+  - C:\\Python36\bin\python -m pip install -U pip setuptools
+  - C:\\Python36\bin\python -m pip install tox
 
 test_script:
-  - C:\\Python36 -m tox
+  - C:\\Python36\bin\python -m tox
 
 build: off
