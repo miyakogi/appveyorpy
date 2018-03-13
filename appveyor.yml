@@ -1,6 +1,6 @@
 install:
-  - python36 -m pip install -U pip setuptools
-  - python36 -m pip install tox
+  - python27 -m pip install -U pip setuptools
+  - python27 -m pip install tox
 
 test_script:
   - tox
