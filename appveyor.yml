@@ -1,16 +1,9 @@
-environment:
-  global:
-    CMD_IN_ENV: "cmd /E:ON /V:ON /C .\\appveyor\\run_with_env.cmd"
-
-  matrix:
-    - Python: "C:\\Python36"
-
 install:
-  - "%CMD_IN_ENV% python -V"
-  - "%CMD_IN_ENV% python -m pip install -U pip setuptools"
-  - "%CMD_IN_ENV% python -m pip install tox"
+  - C:\Python36\python.exe -V
+  - C:\Python36\python.exe -m pip install -U pip setuptools"
+  - C:\Python36\python.exe -m pip install tox"
 
 test_script:
-  - "%CMD_IN_ENV% python -m tox"
+  - C:\Python36\python.exe -m tox
 
 build: off
