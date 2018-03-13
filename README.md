@@ -6,6 +6,7 @@ appveyorpy
 [![Documentation](https://img.shields.io/badge/docs-latest-brightgreen.svg)](https://miyakogi.github.io/appveyorpy)
 [![Build Status](https://travis-ci.org/miyakogi/appveyorpy.svg?branch=master)](https://travis-ci.org/miyakogi/appveyorpy)
 [![codecov](https://codecov.io/gh/miyakogi/appveyorpy/branch/master/graph/badge.svg)](https://codecov.io/ghmiyakogi//appveyorpy)
+[![Appveyor status](https://ci.appveyor.com/api/projects/status/jw2gh0vk3glm6ft0?svg=true)](https://ci.appveyor.com/project/miyakogi/appveyorpy)
 
 Test repository for Appveyor.
 
