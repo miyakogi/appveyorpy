@@ -7,10 +7,7 @@ appveyorpy
 [![Build Status](https://travis-ci.org/miyakogi/appveyorpy.svg?branch=master)](https://travis-ci.org/miyakogi/appveyorpy)
 [![codecov](https://codecov.io/gh/miyakogi/appveyorpy/branch/master/graph/badge.svg)](https://codecov.io/ghmiyakogi//appveyorpy)
 
-short description for this project
-
-* Free software: MIT license
-* Documentation: https://miyakogi.github.io/appveyorpy
+Test repository for Appveyor.
 
 ## Features
 
