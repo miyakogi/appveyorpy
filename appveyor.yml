@@ -1,5 +1,6 @@
 environment:
-  PYTHON: "C:\\Python36"
+  matrix:
+    - PYTHON: "C:\\Python36"
 
 install:
   - python -V
