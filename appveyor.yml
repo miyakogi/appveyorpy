@@ -2,6 +2,7 @@ environment:
   PYTHON: "C:\\Python36"
 
 install:
+  - python -V
   - python -m pip install -U pip setuptools
   - python -m pip install tox
 
