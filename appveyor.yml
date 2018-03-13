@@ -1,4 +1,7 @@
-envitonment:
+environment:
+  global:
+    CMD_IN_ENV: "cmd /E:ON /V:ON /C .\\appveyor\\run_with_env.cmd"
+
   matrix:
     - Python: "C:\\Python36"
 
