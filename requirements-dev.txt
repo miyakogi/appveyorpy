@@ -1,0 +1,10 @@
+-r requirements-docs.txt
+-r requirements-test.txt
+
+flake8
+mypy
+pydocstyle
+readme_renderer
+doit
+green
+livereload
