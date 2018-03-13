@@ -1,9 +1,9 @@
 install:
-  - python -V
-  - python -m pip install -U pip setuptools
-  - python -m pip install tox
+  - python3.6 -V
+  - python3.6 -m pip install -U pip setuptools
+  - python3.6 -m pip install tox
 
 test_script:
-  - tox
+  - python3.6 -m tox
 
 build: off
